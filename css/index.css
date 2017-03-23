@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+ul{
+    list-style: none;
+}
+body{
+    background: #d8ebfb;
+}
+#container{
+    width: 1000px;
+    margin: 0 auto;
+}
+#header{
+    height: 200px;
+    background: cornflowerblue;
+}
+#header h1{
+    text-align: center;
+    padding-top: 36px;
+    padding-bottom: 36px;
+}
+#header #nav{
+    background: blue;
+    padding: 5px 0;
+}
+#header #nav-ul{
+    width: 1000px;
+    margin: 0 auto;
+}
+#header #nav-ul li{
+    display: inline-block;
+    font-size: 22px;
+    width: 162px;
+    text-align: center;
+}
+#container{
+    background: white;
+}
+#container #toutiao{
+    height: 64px;
+    background: url("../img/toutiao_bg.gif") center no-repeat;
+}
+#container #toutiao #toutiao-text{
+    display: block;
+    height: 64px;
+    line-height: 64px;
+    text-align: center;
+    font-size: 30px;
+    margin-left: 100px;
+    margin-right: 20px;
+
+}
+
